@@ -34,6 +34,12 @@ colorscheme solarized
 " Emable line numbers
 set number
 
+""""""""""
+" Encoding
+""""""""""
+
+set encoding=utf-8
+
 """""""""""""
 " Indentation
 """""""""""""
