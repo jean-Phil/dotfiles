@@ -40,25 +40,22 @@ set noswapfile           " No swap file
 
 set encoding=utf-8			" Set default encoding to UTF-8
 
+""""""""""""""""""""""""""
+" Wrapping & line behavior
+""""""""""""""""""""""""""
+
+set lbr         					" Only wrap at specific characters
+set tw=80 								" Auto wrap at 80 chars
+set wrap									" Wrap lines visually rather than actually modifying the buffer
+
 """""""""""""
 " Indentation
 """""""""""""
 
-set smarttab             	" Use smart tabulation
-set shiftwidth=2          " 1 tab = 2 spaces
-set tabstop=2 						" 1 tab = 2 spaces
-set lbr         					" Line break
-set tw=500 								" [what's this?]
-set ai 										" auto indent
-set si 										" smart indent
-set wrap									" wrap lines
-
-""""""""
-" Arrows
-""""""""
-
-noremap <Up> <NOP>				" Disable up arrow
-noremap <Down> <NOP>			" Disable down arrow
-noremap <Left> <NOP>			" Disable left arrow
-noremap <Right> <NOP>			" Disable right arrow
+set expandtab             " Use spaces instead of tabs
+set shiftwidth=2          " Set indentation behavior
+set softtabstop=2         " Set width of soft tabs (2 spaces)
+set tabstop=2 						" Set width of <tab> (2 spaces)
+set ai 										" Indent as previous line
+set si 										" Automatically (in|de)crease indentation 
 
