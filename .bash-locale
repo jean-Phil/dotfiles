@@ -1,3 +1,7 @@
+#
+# One day, hopefully, we'll have a en_EU.UTF-8 locale. 
+# See https://unix.stackexchange.com/questions/62316/why-is-there-no-euro-english-locale
+#
 
 #
 # en_IE is probably the sanest locale for a developer based in Europe.
@@ -42,4 +46,12 @@ export LC_IDENTIFICATION="en_IE.UTF-8"
 
 if locale -a | grep ^en_DK\.utf8 ; then export LC_TIME="en_DK.utf8"; fi
 if locale -a | grep ^en_DK\.UTF-8 ; then export LC_TIME="en_DK.UTF-8"; fi
+
+#
+# This makes a few command-line programs (such as ls) print ISO-formatted
+# timestamps. Of course, this also does not work on Mac OS (X).
+# See https://bbs.archlinux.org/viewtopic.php?id=214899
+#
+
+export TIME_STYLE="posix-long-iso"
 
