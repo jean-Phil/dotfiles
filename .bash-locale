@@ -1,0 +1,31 @@
+
+#
+# en_IE is probably the sanest locale 
+# for a developer based in Europe. 
+#
+
+export LANG="en_IE.UTF-8"
+export LANGUAGE="en"
+export LC_CTYPE="C"
+export LC_COLLATE="C"
+export LC_MESSAGES="en_IE.UTF-8"
+export LC_MONETARY="en_IE.UTF-8"
+export LC_NUMERIC="en_IE.UTF-8"
+export LC_TIME="en_IE.UTF-8"
+export LC_PAPER="en_IE.UTF-8"
+export LC_NAME="en_IE.UTF-8"
+export LC_ADDRESS="en_IE.UTF-8"
+export LC_TELEPHONE="en_IE.UTF-8"
+export LC_MEASUREMENT="en_IE.UTF-8"
+export LC_IDENTIFICATION="en_IE.UTF-8"
+# export LC_ALL=
+
+#
+# What about ISO dates? YYYY-MM-DD?
+# The en_DK locale comes to the rescue but
+# it is not available on Mac OS (X).
+#
+
+if locale -a | grep ^en_DK\.utf8 ; then export LC_TIME="en_DK.utf8"; fi
+if locale -a | grep ^en_DK\.UTF-8 ; then export LC_TIME="en_DK.UTF-8"; fi
+
