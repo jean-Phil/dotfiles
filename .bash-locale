@@ -2,10 +2,11 @@
 #
 # en_IE is probably the sanest locale for a developer based in Europe.
 # - time: DD/MM/YYYY
+# - clock: 24h
 # - system: metric
 # - paper: A4
-# - time: 24h 
 # - currency: euro
+# - numbers: 1,234.56
 #
 
 export LANG="en_IE.UTF-8"
@@ -23,17 +24,20 @@ export LC_TELEPHONE="en_IE.UTF-8"
 export LC_MEASUREMENT="en_IE.UTF-8"
 export LC_IDENTIFICATION="en_IE.UTF-8"
 
+#
 # As this overrides every LC_ variable above, let's save this for quick'n'dirty
-# workarounds to locale issues. If the need arise, try launching a program this
-# way:
+# workarounds to locale issues. Should the need arise, try launching a program 
+# in this way:
 #
 #     $ LC_ALL="en_US.UTF-8" someprogram
 #
+
 # export LC_ALL=""
 
 #
 # What about ISO dates? YYYY-MM-DD? The en_DK locale comes to the rescue!
-# Unfortunately, it doesn't seem to be available on Mac OS (X).
+# Unfortunately, it doesn't seem to be available on Mac OS (X) and some
+# Linux distributions (Ubuntu).
 #
 
 if locale -a | grep ^en_DK\.utf8 ; then export LC_TIME="en_DK.utf8"; fi
