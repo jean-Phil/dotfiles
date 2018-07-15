@@ -3,19 +3,17 @@
 " Cases, colors, syntax
 """""""""""""""""""""""
 
-set ignorecase					" Ignore case when searching
-set smartcase 					" When searching try to be smart about cases
-set hlsearch  					" Highlight search results
-set incsearch						" Makes search act like search in modern browsers 
-set lazyredraw					" Don't redraw while executing macros (good performance config) 
-set magic								" For regular expressions turn magic on
-set showmatch						" Show matching brackets when text indicator is over them
-syntax enable 					" Enable syntax highlighting
-set background=dark			" Enable solarized color scheme
-colorscheme solarized   " Select solarized color scheme
-set number							" Enable line numbers
-set ruler								" Enable line + col number
-set showtabline=2       " Show tabline
+set ignorecase					      " Ignore case when searching
+set smartcase 					      " When searching try to be smart about cases
+set hlsearch  					      " Highlight search results
+set incsearch						      " Makes search act like search in modern browsers 
+set lazyredraw					      " Don't redraw while executing macros (good performance config) 
+set magic								      " For regular expressions turn magic on
+set showmatch						      " Show matching brackets when text indicator is over them
+syntax enable 					      " Enable syntax highlighting
+set number							      " Enable line numbers
+set ruler								      " Enable line + col number
+set showtabline=2             " Show tabline
 
 """""""""
 " History
@@ -38,14 +36,14 @@ set noswapfile           " No swap file
 " Encoding
 """"""""""
 
-set encoding=utf-8			" Set default encoding to UTF-8
+set encoding=utf-8			  " Set default encoding to UTF-8
 
 """"""""""""""""""""""""""
 " Wrapping & line behavior
 """"""""""""""""""""""""""
 
 set lbr         					" Only wrap at specific characters
-set tw=80 								" Auto wrap at 80 chars
+set tw=80                 " Auto wrap at 80 chars
 set wrap									" Wrap lines visually rather than actually modifying the buffer
 
 """""""""""""
@@ -58,4 +56,3 @@ set softtabstop=2         " Set width of soft tabs (2 spaces)
 set tabstop=2 						" Set width of <tab> (2 spaces)
 set ai 										" Indent as previous line
 set si 										" Automatically (in|de)crease indentation 
-
