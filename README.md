@@ -28,7 +28,7 @@ On Firefox, disable `studies` and set `do not track` to `always`.
 
 Go to `System Preferences` --> `Language & Region` and select the `Ireland` region and `English U.S.` preferred language.
 
-## Locale on Linux
+## Locale on Linux
 
 Make sure to enable the `en_IE.UTF-8` and (optionally) the `en_DK.UTF-8` locales by editing `/etc/locale.gen` and running `locale-gen` as root. 
 
