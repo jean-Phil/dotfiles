@@ -44,8 +44,7 @@ export LC_IDENTIFICATION="en_IE.UTF-8"
 # Linux distributions (Ubuntu).
 #
 
-if locale -a | grep ^en_DK\.utf8 ; then export LC_TIME="en_DK.utf8"; fi
-if locale -a | grep ^en_DK\.UTF-8 ; then export LC_TIME="en_DK.UTF-8"; fi
+if locale -a | grep -q ^en_DK\.UTF-8 ; then export LC_TIME="en_DK.UTF-8"; fi
 
 #
 # This makes a few command-line programs (such as ls) print ISO-formatted
