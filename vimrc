@@ -14,6 +14,7 @@ syntax enable            " Enable syntax highlighting
 set number               " Enable line numbers
 set ruler                " Enable line + col number
 set showtabline=2        " Show tabline
+colorscheme base16-default-light  " Base16' variation of solarized-light
 
 """""""""
 " History
