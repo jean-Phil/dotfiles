@@ -64,7 +64,8 @@ Copy or symlink [`tmux.conf`](./tmux.conf) to `~/.tmux.conf`.
 
 ## Vim
 
-Copy or symlink [`vimrc`](./vimrc) to `~/.vimrc`.
+- Copy or symlink [`vimrc`](./vimrc) to `~/.vimrc`.
+- Copy or symlink [`vim`](./vim) to `~/.vim`.
 
 ## Locale on Mac OS
 
