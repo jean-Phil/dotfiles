@@ -12,7 +12,7 @@ A collection of dotfiles, commands and instructions to set up a machine with my 
 - [MS Visual Studio Code](https://code.visualstudio.com)
 - [nvm](https://github.com/creationix/nvm)
 
-Using `homebrew`, install `git`.
+Using `homebrew`, install `git` and `tmux`.
 
 ## Browsers
 
@@ -66,4 +66,13 @@ Copy or symlink [`tmux.conf`](./tmux.conf) to `~/.tmux.conf`.
 
 - Copy or symlink [`vimrc`](./vimrc) to `~/.vimrc`
 
+## Git
 
+Remember to set the default user config options:
+
+```sh
+git config --global user.name "Your Name"
+git config --global user.email "your@email"
+```
+
+Run the same commands without the `--global` flag to customize these options on a per-project basis.
