@@ -49,14 +49,14 @@ Copy [`environment.sh`]('./environment.sh`) and [`aliases.sh`](./aliases.sh) to 
 Install the following extensions:
 
 - [VS Live Share](#)
-- [Base16 Theme Generator](https://marketplace.visualstudio.com/items?itemName=golf1052.base16-generator)
+- [Gruvbox Themes](#)
 - [Vim](#)
 
-Open the command palette (`cmd + shift + p`) and enter `Base16: Activate Theme`. Select `base16 solarized dark` (or the light version). Once built, select the theme using `Code --> Preferences --> Color Theme`.
+Select the `gruvbox dark` color theme using `Code --> Preferences --> Color Theme`.
 
 ## iTerm2
 
-For the color theme, download and install the `.itermcolors` files for the [`Base16` variations of Solarized](https://github.com/chriskempson/base16-iterm2).
+For the color theme, download and install [the `.itermcolors` files for Gruvbox](https://github.com/morhetz/gruvbox-contrib/blob/master/iterm2/gruvbox-dark.itermcolors).
 
 ## Tmux
 
