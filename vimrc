@@ -15,6 +15,7 @@ set number               " Enable line numbers
 set ruler                " Enable line + col number
 set showtabline=2        " Show tabline
 set background=dark
+set termguicolors
 colorscheme gruvbox
 
 """""""""
