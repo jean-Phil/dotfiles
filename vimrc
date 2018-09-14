@@ -59,3 +59,9 @@ set softtabstop=2        " Set width of soft tabs (2 spaces)
 set tabstop=2            " Set width of <tab> (2 spaces)
 set ai                   " Indent as previous line
 set si                   " Automatically (in|de)crease indentation 
+
+"""""""""""
+" Backspace
+"""""""""""
+
+set backspace=indent,eol,start
