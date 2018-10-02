@@ -11,6 +11,7 @@ A collection of dotfiles, commands and instructions to set up a machine with my 
 - [Docker](#)
 - [MS Visual Studio Code](https://code.visualstudio.com)
 - [nvm](https://github.com/creationix/nvm)
+- [Fira Code](https://github.com/tonsky/FiraCode)
 
 Using `homebrew`, install `git` and `tmux`.
 
@@ -54,9 +55,17 @@ Install the following extensions:
 
 Select the `gruvbox dark` color theme using `Code --> Preferences --> Color Theme`.
 
+Edit preferences to use `Fira Code` font:
+
+```
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+```
+
 ## iTerm2
 
 For the color theme, download and install [the `.itermcolors` files for Gruvbox](https://github.com/morhetz/gruvbox-contrib/blob/master/iterm2/gruvbox-dark.itermcolors).
+Set the font to `Fira Code`.
 
 ## Tmux
 
